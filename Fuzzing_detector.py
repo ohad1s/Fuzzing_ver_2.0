@@ -18,3 +18,7 @@ def Fuzzing_detector():
 
         if detector_counter >= 4:
             print("Fuzzing detect!!!")
+
+
+if __name__ == "__main__":
+    Fuzzing_detector()
